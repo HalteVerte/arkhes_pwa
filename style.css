@@ -286,7 +286,7 @@ h3 {
 
 .world-card {
   background-color: var(--violet-lunaire);
-  color: var(--jaune-solaire) !important;
+  color: var(--blanc) !important; /* Force la couleur */
   padding: 1.5rem;
   border-radius: 8px;
   min-height: 120px;
@@ -295,6 +295,21 @@ h3 {
   justify-content: center;
   text-align: center;
   transition: all 0.3s ease;
+  
+  /* Isolation pour éviter les héritages indésirables */
+  isolation: isolate;
+}
+
+/* Reset des éléments enfants */
+.world-card h1,
+.world-card h2,
+.world-card h3,
+.world-card h4,
+.world-card h5,
+.world-card h6,
+.world-card p,
+.world-card span {
+  color: inherit !important;
 }
 
 .world-card:hover {
