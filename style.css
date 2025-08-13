@@ -286,7 +286,7 @@ h3 {
 
 .world-card {
   background-color: var(--violet-lunaire);
-  color: var(--blanc);
+  color: var(--blanc) !important;
   padding: 1.5rem;
   border-radius: 8px;
   min-height: 120px;
