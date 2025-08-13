@@ -1,0 +1,16 @@
+
+body {
+  font-family: sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 2em;
+  color: #2E7D32;
+}
+h1 {
+  color: #4B2E83;
+}
+footer {
+  margin-top: 3em;
+  font-size: 0.9em;
+  color: #777;
+}
