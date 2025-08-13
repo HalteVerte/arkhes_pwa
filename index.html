@@ -3,123 +3,207 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Arkhès - Une graine pour les savoirs humains</title>
-  <meta name="description" content="Livre blanc du projet Arkhès : transmission de savoirs, vision solarpunk & lunarpunk, low-tech">
+  <title>Arkhès : Une graine pour les savoirs humains</title>
+  <meta name="description" content="Livre blanc du projet Arkhès - Transmission des savoirs fondamentaux dans une approche solarpunk et low-tech">
   <link rel="manifest" href="./manifest.json">
   <link rel="stylesheet" href="./styles.css">
   <meta name="theme-color" content="#7BB661">
 </head>
 <body>
   <header>
-    <h1>Arkhès - Livre Blanc</h1>
-    <nav>
-      <a href="#intro">Introduction</a>
-      <a href="#vision">Vision</a>
-      <a href="#objectifs">Objectifs</a>
-      <a href="#piliers">Piliers</a>
-      <a href="#domaines">Domaines</a>
-      <a href="#cycles">Cycles</a>
-      <a href="#mondes">Mondes</a>
-      <a href="#conclusion">Conclusion</a>
-    </nav>
+    <div class="header-container">
+      <h1>Arkhès <span class="subtitle">Une graine pour les savoirs humains</span></h1>
+      <nav>
+        <ul>
+          <li><a href="#intro">Introduction</a></li>
+          <li><a href="#vision">Vision</a></li>
+          <li><a href="#piliers">Piliers</a></li>
+          <li><a href="#domaines">Domaines</a></li>
+          <li><a href="#cycles">Cycles</a></li>
+          <li><a href="#mondes">Mondes</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <main>
-    <section id="intro">
+    <section id="intro" class="hero">
       <h2>✨ Introduction</h2>
-      <p><strong>Arkhès : Une graine pour les savoirs humains</strong></p>
-      <p>Bienvenue dans le livre blanc du projet Arkhès. Ceci est une Progressive Web App (PWA) accessible en ligne et hors-ligne.</p>
-      <ul>
-        <li>🌱 Vision solarpunk & lunarpunk</li>
-        <li>📚 Transmission de savoirs</li>
-        <li>⚙️ Modules low-tech</li>
-      </ul>
+      <p class="lead">Dans un monde en mutation profonde, à la croisière de crises climatiques, écologiques, sociales et numériques, <strong>le projet Arkhès</strong> se propose comme une graine vivante de résilience.</p>
+      <div class="highlight-box">
+        <p>Ni archive figée, ni musée technologique, Arkhès est un système modulaire, <strong>low-tech, open-source, solarpunk et lunarpunk</strong>, pensé pour sauvegarder, transmettre et répliquer les savoirs fondamentaux de l'humanité.</p>
+      </div>
     </section>
 
     <section id="vision">
       <h2>💡 Vision</h2>
-      <p>Et si nous étions la dernière génération capable de transmettre ce que l'humanité a mis des millénaires à apprendre ?  
-      Arkhès ne prétend pas tout sauver, mais propose de semer <strong>ce qui compte vraiment</strong> : les gestes, les savoirs, les outils, les récits.</p>
+      <div class="vision-content">
+        <p>Et si nous étions la dernière génération capable de transmettre ce que l'humanité a mis des millénaires à apprendre ?</p>
+        <blockquote>
+          Arkhès ne prétend pas tout sauver, mais propose de semer <strong>ce qui compte vraiment</strong> : les gestes, les savoirs, les outils, les récits.
+        </blockquote>
+      </div>
     </section>
 
     <section id="objectifs">
       <h2>🌍 Objectifs</h2>
-      <ul>
-        <li><strong>Préserver</strong> les savoirs essentiels dans des formats résilients et durables</li>
-        <li><strong>Transmettre</strong> via des médias accessibles, reproductibles et multi-sensoriels</li>
-        <li><strong>Répliquer</strong> : chaque groupe peut déployer son propre nœud Arkhès</li>
-        <li><strong>Inspirer</strong> une culture de l'autonomie joyeuse et poétique</li>
-      </ul>
+      <div class="grid-container">
+        <div class="card">
+          <h3>Préserver</h3>
+          <p>Les savoirs essentiels dans des formats résilients et durables</p>
+        </div>
+        <div class="card">
+          <h3>Transmettre</h3>
+          <p>Via des médias accessibles, reproductibles et multi-sensoriels</p>
+        </div>
+        <div class="card">
+          <h3>Répliquer</h3>
+          <p>Chaque groupe peut déployer son propre nœud Arkhès</p>
+        </div>
+        <div class="card">
+          <h3>Inspirer</h3>
+          <p>Une culture de l'autonomie joyeuse et poétique</p>
+        </div>
+      </div>
     </section>
 
     <section id="piliers">
       <h2>💧 Les 3 piliers fondamentaux</h2>
-      <article>
-        <h3>1. Humus & Régénération des sols</h3>
-        <p>Le sol est le socle de l'autonomie...</p>
+      
+      <article class="pillar">
+        <div class="pillar-header">
+          <span class="pillar-number">1</span>
+          <h3>Humus & Régénération des sols</h3>
+        </div>
+        <p>Le sol est le socle de l'autonomie. Arkhès promeut une agriculture vivante, des techniques de compostage, bokashi, mycorhization et biochar pour une fertilité durable.</p>
       </article>
-      <article>
-        <h3>2. Cycle de l'eau & phytoépuration</h3>
-        <p>Gestion en circuit quasi-fermé...</p>
+
+      <article class="pillar">
+        <div class="pillar-header">
+          <span class="pillar-number">2</span>
+          <h3>Cycle de l'eau & phytoépuration</h3>
+        </div>
+        <p>Gestion en circuit quasi-fermé, via collecte, filtrage, stockage souterrain, et purification naturelle. L'eau est traitée comme un bien sacré et stratégique.</p>
+        
+        <div class="zoom-box">
+          <h4>🌧️ Zoom : Cultiver la pluie</h4>
+          <p>« Cultiver la pluie » signifie créer les conditions pour que l'eau reste, s'infiltre, nourrisse. Ce n'est pas simplement stocker, c'est <strong>revitaliser le cycle hydrologique local</strong>.</p>
+          
+          <div class="principles-grid">
+            <div class="principle">
+              <h5>Ralentir</h5>
+              <p>Le ruissellement (swales, baissières, micro-topographie)</p>
+            </div>
+            <div class="principle">
+              <h5>Infiltrer</h5>
+              <p>L'eau profondément (sol vivant, paillage, racines)</p>
+            </div>
+            <div class="principle">
+              <h5>Stocker</h5>
+              <p>Naturellement (jarres, cuves enterrées, mares)</p>
+            </div>
+            <div class="principle">
+              <h5>Réutiliser</h5>
+              <p>Intelligemment (phytoépuration, double usage)</p>
+            </div>
+          </div>
+          
+          <div class="inspiration">
+            <p><strong>Inspiré par :</strong> Rajendra Singh (Inde), Brad Lancaster (USA), Sepp Holzer (Autriche) et les savoirs ancestraux des peuples semi-arides.</p>
+          </div>
+        </div>
       </article>
-      <article>
-        <h3>3. Artisanat & Auto-construction</h3>
-        <p>Réappropriation des savoir-faire...</p>
+
+      <article class="pillar">
+        <div class="pillar-header">
+          <span class="pillar-number">3</span>
+          <h3>Artisanat & Auto-construction</h3>
+        </div>
+        <p>Réappropriation des savoir-faire : éco-construction, outils manuels, réparation, forge, vannerie, couture. Chaque objet devient vecteur de transmission.</p>
       </article>
     </section>
 
     <section id="domaines">
-      <h2>🌞🌙 Domaines</h2>
+      <h2>🌞🌙 Les 15 domaines Solarpunk/Lunarpunk</h2>
+      
       <div class="table-container">
-        <table>
+        <table class="domains-table">
           <thead>
             <tr>
               <th>Domaine</th>
-              <th>Solarpunk</th>
-              <th>Lunarpunk</th>
+              <th>Couleur dominante</th>
+              <th>Couleur accent</th>
+              <th>Exemple</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>Énergie</td>
-              <td>Panneaux visibles</td>
-              <td>Stockage discret</td>
+              <td>Vert solaire #A4D65E</td>
+              <td>Violet lunaire #4B2E83</td>
+              <td>Panneaux solaires visibles</td>
             </tr>
-            <!-- Ajoutez d'autres lignes au besoin -->
+            <tr>
+              <td>Eau</td>
+              <td>Vert feuillage #2E7D32</td>
+              <td>Violet brumeux #7E57C2</td>
+              <td>Systèmes de récupération</td>
+            </tr>
+            <!-- Ajouter les autres domaines ici -->
           </tbody>
         </table>
       </div>
     </section>
 
     <section id="cycles">
-      <h2>♻️ Cycles</h2>
-      <ol>
+      <h2>♻️ Les 9 cycles vertueux</h2>
+      <ol class="cycles-list">
         <li>Compost & Sol vivant</li>
         <li>Eau grise & phytoépuration</li>
-        <li>...</li>
+        <li>Énergie solaire + batteries low-tech</li>
+        <!-- Ajouter les autres cycles -->
       </ol>
     </section>
 
     <section id="mondes">
-      <h2>🌟 Mondes</h2>
-      <ol>
-        <li>Agriculture & alimentation</li>
-        <li>Énergie & low-tech</li>
-        <li>...</li>
-      </ol>
+      <h2>🌟 Les 8 mondes de savoirs</h2>
+      <div class="worlds-grid">
+        <div class="world-card">
+          <h3>Agriculture & alimentation</h3>
+        </div>
+        <div class="world-card">
+          <h3>Énergie & low-tech</h3>
+        </div>
+        <!-- Ajouter les autres mondes -->
+      </div>
     </section>
 
-    <section id="conclusion">
+    <section id="replication">
+      <h2>🌎 Graines de réplication</h2>
+      <ul class="replication-list">
+        <li>Kits nomades de savoirs (gravures, QR codes, fiches papier)</li>
+        <li>Modules low-tech open-source</li>
+        <li>Réseaux distribués de nœuds Arkhès</li>
+        <li>Rituels & contes comme modes de transmission</li>
+      </ul>
+    </section>
+
+    <section id="conclusion" class="conclusion">
       <h2>✨ Conclusion</h2>
-      <p>Arkhès est une invitation à reprendre racine...</p>
-      <blockquote>"Ce n'est pas la fin du monde, c'est la fin d'un monde. Le suivant se sème dès maintenant."</blockquote>
+      <p>Arkhès est une invitation à reprendre racine, dans le sol, les gestes et les mots. Une constellation de lieux, de personnes et d'outils qui refusent l'oubli, et cultivent la mémoire comme un jardin.</p>
+      <blockquote class="final-quote">
+        "Ce n'est pas la fin du monde, c'est la fin d'un monde. Le suivant se sème dès maintenant."
+      </blockquote>
     </section>
   </main>
 
   <footer>
-    <p>© 2025 Projet Arkhès — Tous droits réservés</p>
+    <div class="footer-content">
+      <p>© 2025 Projet Arkhès — Tous droits réservés</p>
+      <p>Une graine pour les savoirs humains</p>
+    </div>
   </footer>
 
-  <script src="./app.js"></script>
+  <script src="./sw.js"></script>
 </body>
 </html>
