@@ -1,117 +1,13 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Arkhès - Une graine pour les savoirs humains</title>
-  <meta name="description" content="Livre blanc du projet Arkhès : transmission de savoirs, vision solarpunk & lunarpunk, low-tech." />
-  <link rel="manifest" href="manifest.json" />
-
-  <style>
-    :root {
-      --vert-prairie: #7BB661;
-      --jaune-vif: #FFD54F;
-      --brun-terre: #8B5E3C;
-      --blanc-pur: #FFFFFF;
-      --gris-acier: #7E7E7E;
-      --bleu-ciel: #6EB1E7;
-      --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: var(--font-family);
-      background: var(--blanc-pur);
-      color: #333;
-      line-height: 1.6;
-    }
-
-    header {
-      background: var(--vert-prairie);
-      color: var(--blanc-pur);
-      padding: 1rem 1.5rem;
-      position: sticky;
-      top: 0;
-      z-index: 100;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 1.5rem;
-    }
-
-    nav {
-      margin-top: 0.5rem;
-    }
-
-    nav a {
-      color: var(--blanc-pur);
-      text-decoration: none;
-      margin-right: 1rem;
-      font-weight: bold;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
-    main {
-      max-width: 900px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-    }
-
-    section {
-      margin-bottom: 2.5rem;
-    }
-
-    h2 {
-      color: var(--vert-prairie);
-      border-bottom: 2px solid var(--jaune-vif);
-      padding-bottom: 0.3rem;
-    }
-
-    h3 {
-      color: var(--brun-terre);
-      margin-top: 1.2rem;
-    }
-
-    p, li {
-      margin: 0.6rem 0;
-    }
-
-    footer {
-      background: var(--gris-acier);
-      color: var(--blanc-pur);
-      text-align: center;
-      padding: 1rem;
-      font-size: 0.9rem;
-      margin-top: 3rem;
-    }
-
-    /* Table overflow */
-    .table-container {
-      overflow-x: auto;
-    }
-
-    /* Mobile styles */
-    @media (max-width: 600px) {
-      header, main {
-        padding: 1rem;
-      }
-
-      nav a {
-        display: block;
-        margin: 0.3rem 0;
-      }
-
-      h1 {
-        font-size: 1.3rem;
-      }
-    }
-  </style>
+  <meta name="description" content="Livre blanc du projet Arkhès : transmission de savoirs, vision solarpunk & lunarpunk, low-tech">
+  <link rel="manifest" href="./manifest.json">
+  <link rel="stylesheet" href="./styles.css">
+  <meta name="theme-color" content="#7BB661">
 </head>
 <body>
   <header>
@@ -142,48 +38,54 @@
 
     <section id="vision">
       <h2>💡 Vision</h2>
-      <p>Et si nous étions la dernière génération capable de transmettre ce que l’humanité a mis des millénaires à apprendre ?  
+      <p>Et si nous étions la dernière génération capable de transmettre ce que l'humanité a mis des millénaires à apprendre ?  
       Arkhès ne prétend pas tout sauver, mais propose de semer <strong>ce qui compte vraiment</strong> : les gestes, les savoirs, les outils, les récits.</p>
     </section>
 
     <section id="objectifs">
       <h2>🌍 Objectifs</h2>
       <ul>
-        <li><strong>Préserver</strong> les savoirs essentiels dans des formats résilients et durables.</li>
-        <li><strong>Transmettre</strong> via des médias accessibles, reproductibles et multi-sensoriels.</li>
-        <li><strong>Répliquer</strong> : chaque groupe peut déployer son propre nœud Arkhès.</li>
-        <li><strong>Inspirer</strong> une culture de l'autonomie joyeuse et poétique.</li>
+        <li><strong>Préserver</strong> les savoirs essentiels dans des formats résilients et durables</li>
+        <li><strong>Transmettre</strong> via des médias accessibles, reproductibles et multi-sensoriels</li>
+        <li><strong>Répliquer</strong> : chaque groupe peut déployer son propre nœud Arkhès</li>
+        <li><strong>Inspirer</strong> une culture de l'autonomie joyeuse et poétique</li>
       </ul>
     </section>
 
     <section id="piliers">
       <h2>💧 Les 3 piliers fondamentaux</h2>
-      <h3>1. Humus & Régénération des sols</h3>
-      <p>Le sol est le socle de l'autonomie...</p>
-      <h3>2. Cycle de l'eau & phytoépuration</h3>
-      <p>Gestion en circuit quasi-fermé...</p>
-      <h3>3. Artisanat & Auto-construction</h3>
-      <p>Réappropriation des savoir-faire...</p>
+      <article>
+        <h3>1. Humus & Régénération des sols</h3>
+        <p>Le sol est le socle de l'autonomie...</p>
+      </article>
+      <article>
+        <h3>2. Cycle de l'eau & phytoépuration</h3>
+        <p>Gestion en circuit quasi-fermé...</p>
+      </article>
+      <article>
+        <h3>3. Artisanat & Auto-construction</h3>
+        <p>Réappropriation des savoir-faire...</p>
+      </article>
     </section>
 
     <section id="domaines">
       <h2>🌞🌙 Domaines</h2>
       <div class="table-container">
-        <table style="width:100%; border-collapse: collapse;">
-          <thead style="background-color: var(--vert-prairie); color: var(--blanc-pur);">
+        <table>
+          <thead>
             <tr>
-              <th style="padding: 0.5rem; border: 1px solid #ccc;">Domaine</th>
-              <th style="padding: 0.5rem; border: 1px solid #ccc;">Solarpunk</th>
-              <th style="padding: 0.5rem; border: 1px solid #ccc;">Lunarpunk</th>
+              <th>Domaine</th>
+              <th>Solarpunk</th>
+              <th>Lunarpunk</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td style="border: 1px solid #ccc; padding: 0.5rem;">Énergie</td>
-              <td style="border: 1px solid #ccc; padding: 0.5rem;">Panneaux visibles</td>
-              <td style="border: 1px solid #ccc; padding: 0.5rem;">Stockage discret</td>
+              <td>Énergie</td>
+              <td>Panneaux visibles</td>
+              <td>Stockage discret</td>
             </tr>
-            <!-- autres lignes... -->
+            <!-- Ajoutez d'autres lignes au besoin -->
           </tbody>
         </table>
       </div>
@@ -218,12 +120,6 @@
     <p>© 2025 Projet Arkhès — Tous droits réservés</p>
   </footer>
 
-  <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('sw.js').then(() => {
-        console.log('Service Worker enregistré');
-      });
-    }
-  </script>
+  <script src="./app.js"></script>
 </body>
 </html>
