@@ -93,3 +93,14 @@ self.addEventListener('message', (event) => {
     self.skipWaiting();
   }
 });
+document.querySelector('.menu-toggle').addEventListener('click', () => {
+  const nav = document.querySelector('nav ul');
+  nav.classList.toggle('show');
+  
+  // Animation optionnelle
+  if (nav.classList.contains('show')) {
+    nav.style.animation = 'slideDown 0.3s ease-out';
+  } else {
+    nav.style.animation = 'slideUp 0.3s ease-out';
+  }
+});
